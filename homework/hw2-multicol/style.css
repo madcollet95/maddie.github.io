@@ -6,11 +6,11 @@ font-family: 'Inknut Antiqua', serif;
 
 
 body {
-  background-color: #c98a0a;
+  background-color: #eb0901;
 }
 
 div {
-  background-color: #dad9a6;
+  background-color: #1d2eeb;
 }
 
 span {
@@ -22,20 +22,26 @@ h1 {
 font-family: 'Inknut Antiqua', serif;
 font-weight: 900;
 font-size:400%;
-color: #dad9a6;
+color: #ffffff;
 text-align: center;
 }
 body {
   font-family: 'Poppins', sans-serif;
-  color: #78744c;
+  color: #ffffff;
   text-align:center;
-  font-size: 120%;
+}
+.grid-demo.feature {
+  font-family: 'Poppins: 700', sans-serif;
+  font-size:20px;
+  color: white;
+  text-align:center;
+  te
 }
 .grid-demo section {
   display: grid;
   display: column;
   grid-template-columns: 2fr repeat(2, 2fr);
-  grid-template-rows: 1fr 1fr 1fr ;
+  grid-template-rows: 250px 250px 250px;
   grid-gap:20px;
   padding: 20px;
 }
