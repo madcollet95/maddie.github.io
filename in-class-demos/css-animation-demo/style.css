@@ -1,0 +1,64 @@
+body {
+  background-color: #ffffff
+}
+main {
+  width: 80%;
+  margin: 80px auto;
+}
+
+.svg-words svg path{
+  fill:purple !important;
+  width:200px;  
+}
+
+.svg-flower {
+  width:300px;
+  margin: 80px;
+  animation-name: spinFlower;
+  animation-duration: 5s;
+  animation-timing-function; linear;
+  animation-fill-mode: forwards;
+}
+
+/* The animation code */
+@keyframes spinFlower {
+  0%   {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform:rotate(360deg);
+}
+
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  background-color: #000000;
+  padding: 12px 20px;
+  border-radius: 12px;
+  color:#fff;
+  border: 2px;
+}
+
+
+/* The animation code */
+@keyframes button-hover {
+  0%   {
+    background-color: rgba(255,0,0,1);
+  }
+  100% {background-color: rgba(255,0,0,0)
+}
+
+
+
+.button:hover {
+  position: relative;
+  animation-name: button-hover;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-direction: alternate-reverse;
+}
+
+
