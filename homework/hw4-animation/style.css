@@ -1,0 +1,40 @@
+.box{
+  position: relative;
+  height:100vh;
+
+}
+
+svg, #sun{height:100vh;}
+.cls-5  {
+  z-index: 2;
+}
+
+.cls-6 {
+  fill:#fff3a8 !important;
+  position:absolute;
+  top:0;
+animation-name:sun;
+animation-duration: 5s;
+animation-timing-function: linear;
+
+}
+
+.cls-1 {
+  animation-name:sunset;
+  z-index: 0;
+  fill:#e0ab96;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+}
+
+@keyframes sun {
+    0%; {transform:translate(0,0px);}
+
+    100% {transform:translate(0,100vh);}
+}
+
+@keyframes sunset {
+    0%; {fill:#e0ab96;}
+
+    100% {fill:#000000;}
+}
