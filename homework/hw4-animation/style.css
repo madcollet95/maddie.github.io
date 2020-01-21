@@ -14,7 +14,7 @@ svg, #sun{height:100vh;}
   position:absolute;
   top:0;
 animation-name:sun;
-animation-duration: 5s;
+animation-duration: 10s;
 animation-timing-function: linear;
 
 }
@@ -34,7 +34,10 @@ animation-timing-function: linear;
 }
 
 @keyframes sunset {
-    0%; {fill:#e0ab96;}
-
-    100% {fill:#000000;}
+    0% {fill:#e0ab96;}
+    20% {fill:#eba8b2;}
+    40%{fill:#c99bcf}
+    60%{fill:#948ab8;}
+    80%{fill:#475691}
+    100%{fill:#262e4f}
 }
